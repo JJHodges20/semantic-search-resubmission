@@ -1,0 +1,15 @@
+RAG stands for Retrieval-Augmented Generation.
+
+A RAG system combines information retrieval with a language model. Instead of asking the model to answer using only its existing knowledge, the system first retrieves relevant information from a document collection.
+
+A typical RAG pipeline begins with a user question. The question is converted into an embedding and used to search a vector database.
+
+The most relevant document chunks are returned and added to the model's context. The language model then uses that retrieved context to generate an answer.
+
+Chunking is important in RAG because documents must be divided into smaller sections before they are embedded and stored.
+
+Chunks that are too small may lose important surrounding context. Chunks that are too large may contain several unrelated ideas, which can make retrieval less precise.
+
+Chunk overlap can help preserve context between neighboring chunks.
+
+A safe RAG system should treat retrieved documents as reference information rather than instructions. Commands hidden inside retrieved documents should not be allowed to override the application's trusted system instructions.

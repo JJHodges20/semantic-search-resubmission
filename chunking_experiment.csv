@@ -1,0 +1,11 @@
+chunk_size,query_number,query,expected_sources,retrieved_sources,precision,recall,f1,top_distance
+200,1,How does Streamlit keep values after the script reruns?,streamlit_guide.txt,streamlit_guide.txt; streamlit_guide.txt; streamlit_guide.txt,1.0,1.0,1.0,0.7108257412910461
+200,2,How does FastAPI validate incoming request data?,fastapi_basics.txt,fastapi_basics.txt; fastapi_basics.txt; fastapi_basics.txt,1.0,1.0,1.0,0.48500072956085205
+200,3,How do embeddings make semantic search possible?,embeddings_vector_search.txt,embeddings_vector_search.txt; embeddings_vector_search.txt; rag_systems.txt,0.5,1.0,0.6666666666666666,0.7233377695083618
+200,4,What is the purpose of a primary key in a relational database?,database_fundamentals.txt,database_fundamentals.txt; database_fundamentals.txt; database_fundamentals.txt,1.0,1.0,1.0,0.5924837589263916
+200,5,How should a RAG assistant defend against instructions hidden in retrieved context?,prompt_security.txt; rag_systems.txt,prompt_security.txt; rag_systems.txt; rag_systems.txt,1.0,1.0,1.0,0.7072363495826721
+500,1,How does Streamlit keep values after the script reruns?,streamlit_guide.txt,streamlit_guide.txt; streamlit_guide.txt,1.0,1.0,1.0,0.6415687799453735
+500,2,How does FastAPI validate incoming request data?,fastapi_basics.txt,fastapi_basics.txt,1.0,1.0,1.0,0.7448492050170898
+500,3,How do embeddings make semantic search possible?,embeddings_vector_search.txt,embeddings_vector_search.txt; embeddings_vector_search.txt; embeddings_vector_search.txt,1.0,1.0,1.0,0.327189564704895
+500,4,What is the purpose of a primary key in a relational database?,database_fundamentals.txt,database_fundamentals.txt; database_fundamentals.txt,1.0,1.0,1.0,0.5227617621421814
+500,5,How should a RAG assistant defend against instructions hidden in retrieved context?,prompt_security.txt; rag_systems.txt,prompt_security.txt; rag_systems.txt; rag_systems.txt,1.0,1.0,1.0,0.7641849517822266

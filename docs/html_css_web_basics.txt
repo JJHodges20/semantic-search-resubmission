@@ -1,0 +1,15 @@
+HTML is used to define the structure and content of a web page.
+
+HTML elements include headings, paragraphs, links, images, forms, buttons, lists, and other page components.
+
+CSS is used to control the visual appearance of HTML elements. CSS can change colors, fonts, spacing, borders, positioning, and layout.
+
+The CSS box model describes how an element is made up of content, padding, border, and margin.
+
+Classes and IDs can be used to select HTML elements and apply CSS styles to them.
+
+Responsive design allows a website to adapt to different screen sizes such as desktops, tablets, and mobile phones.
+
+CSS media queries can apply different styles based on the width or characteristics of the user's screen.
+
+Flexbox and CSS Grid are layout systems that make it easier to arrange elements in rows, columns, and responsive page structures.

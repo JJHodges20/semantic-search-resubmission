@@ -1,0 +1,13 @@
+A database is a structured system for storing and retrieving information.
+
+Relational databases organize data into tables made of rows and columns. Each row represents a record, while each column represents an attribute of that record.
+
+A primary key uniquely identifies each record in a table. For example, a users table might use a unique user_id as its primary key.
+
+A foreign key creates a relationship between two tables. For example, an orders table might contain a user_id foreign key that connects each order to a user in the users table.
+
+SQL is commonly used to interact with relational databases. The main CRUD operations are Create, Read, Update, and Delete.
+
+Database indexes can improve query performance by making it faster to locate records, although indexes also require additional storage and maintenance.
+
+Transactions allow several database operations to be treated as one unit of work. A transaction can be committed if all operations succeed or rolled back if an error occurs.

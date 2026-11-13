@@ -1,0 +1,15 @@
+An API allows different software applications to communicate with each other.
+
+HTTP APIs commonly use methods such as GET, POST, PUT, PATCH, and DELETE.
+
+GET requests are generally used to retrieve data. POST requests are commonly used to create new resources.
+
+PUT and PATCH can be used to update existing resources, while DELETE is used to remove resources.
+
+API endpoints should have clear and consistent names. Resource-based paths such as /users, /orders, and /products are usually easier to understand than vague endpoint names.
+
+HTTP status codes communicate the result of a request. For example, 200 usually represents success, 201 represents successful resource creation, 400 represents a bad request, and 404 means a resource could not be found.
+
+APIs should validate incoming data before processing it. Invalid requests should return useful error messages.
+
+Authentication and authorization help control who can access protected API resources.

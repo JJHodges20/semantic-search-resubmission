@@ -1,0 +1,11 @@
+FastAPI is a modern Python web framework used to build APIs quickly and efficiently.
+
+FastAPI uses Python type hints and Pydantic models to validate incoming request data. When a client sends invalid data, FastAPI can automatically return a detailed validation error.
+
+FastAPI also generates interactive API documentation automatically. Swagger UI is usually available at the /docs route, and ReDoc is available at /redoc.
+
+FastAPI supports asynchronous programming with async and await. This allows the server to handle other requests while waiting for slower operations such as database queries or external API calls.
+
+Path parameters, query parameters, and request bodies can all be defined directly in Python function signatures. FastAPI uses these definitions to validate data and generate documentation.
+
+Dependencies can be managed with FastAPI's dependency injection system. This is useful for authentication, database sessions, reusable validation logic, and other shared application behavior.

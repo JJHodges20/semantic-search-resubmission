@@ -1,0 +1,15 @@
+Prompt injection is an attack where a user or document attempts to manipulate a language model's instructions.
+
+A direct prompt injection happens when a user enters commands such as "ignore previous instructions" or asks the model to reveal hidden system prompts.
+
+An indirect prompt injection can appear inside retrieved documents, web pages, emails, or other external content that is provided to the model as context.
+
+A secure application should clearly separate trusted instructions from untrusted content.
+
+For a RAG system, retrieved context should be treated as reference data only. The model should be explicitly instructed not to follow commands found inside the retrieved context.
+
+Input validation can detect suspicious phrases before they are sent to the model.
+
+Output validation can check model responses for information that should not be exposed, such as API keys, private URLs, credentials, or hidden system instructions.
+
+Security should use multiple layers of protection because no single prompt or validation rule can prevent every possible attack.

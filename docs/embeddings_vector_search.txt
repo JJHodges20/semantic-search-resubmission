@@ -1,0 +1,15 @@
+Embeddings are numerical vector representations of data such as text.
+
+An embedding model converts a sentence, paragraph, or document into a list of numbers that represents its semantic meaning.
+
+Texts with similar meanings tend to have embeddings that are close together in vector space, even when they do not use the same exact words.
+
+Semantic search uses embeddings to find information based on meaning instead of relying only on keyword matching.
+
+When a user enters a search query, the query is converted into an embedding. That vector is then compared with the stored document vectors to find the closest matches.
+
+Vector databases such as ChromaDB are designed to store embeddings and perform similarity search efficiently.
+
+Distance scores can be used to rank search results. Smaller distances generally represent closer semantic matches when using a distance-based metric.
+
+Metadata can also be stored alongside vectors. This allows a search system to filter results by properties such as source document, topic, or category.

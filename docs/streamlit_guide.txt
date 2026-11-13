@@ -1,0 +1,11 @@
+Streamlit is a Python framework for quickly building interactive web applications and data applications.
+
+One of the most important concepts in Streamlit is the rerun model. When a user interacts with a widget, Streamlit runs the Python script again from top to bottom.
+
+Because the script reruns, normal Python variables may be recreated during each interaction. Streamlit provides st.session_state to preserve values between reruns.
+
+A common pattern is to check whether a key already exists in session state before creating it. For example, an application can initialize a counter only once and then update that counter after each button click.
+
+Streamlit provides widgets such as buttons, sliders, text inputs, select boxes, and multiselect controls. These widgets allow users to interact with the application.
+
+Layout tools include st.sidebar, st.columns, st.tabs, and st.container. The st.set_page_config function can be used to set the page title, page icon, and layout.
